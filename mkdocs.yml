@@ -1,8 +1,15 @@
 
 site_name: pyNotes
+
+# Repository
+repo_name: dzc0d3r/pyNotes
+repo_url: https://github.com/dzc0d3r/pyNotes
 theme:
+  logo: assets/python.png
+  favicon: assets/python.png
   name: material
   features:
+    - toc.follow
     - navigation.tabs
     - navigation.sections
     - toc.integrate
@@ -16,44 +23,81 @@ theme:
   palette:
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-4
         name: Switch to light mode    
       primary: indigo
       accent: blue
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7 
         name: Switch to dark mode
       primary: teal
       accent: purple 
+  
     
 
 extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Arabic
+      link: /ar/
+      lang: ar
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/dzc0d3r
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/8990846/walid-lamraoui
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://www.linkedin.com/in/walid-lamraoui/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dzc0d3r
+    
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
+# Extensions
+markdown_extensions:
+  - abbr
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+  &copy; 2023 <a href="https://github.com/dzc0d3r"  target="_blank" rel="noopener">Walid Lamraoui</a>
