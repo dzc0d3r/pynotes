@@ -51,6 +51,7 @@ extra:
     
 
 plugins:
+  - search
   - i18n:
       material_alternate: true
       default_language: en
