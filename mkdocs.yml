@@ -11,15 +11,25 @@ theme:
   name: material
   features:
     - toc.follow
+    #- navigation.instant
+    - navigation.tracking
+
     - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    - navigation.tabs.sticky
+    #- navigation.sections
+    - navigation.expand
+    - navigation.indexes 
+
+
+
+    #- toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - navigation.footer
   language: en
   palette:
     - scheme: slate 
@@ -37,31 +47,11 @@ theme:
   
     
 
-extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/dzc0d3r
-    - icon: fontawesome/brands/stack-overflow
-      link: https://stackoverflow.com/users/8990846/walid-lamraoui
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/walid-lamraoui/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/dzc0d3r
+
     
 
-plugins:
-  - search
-  - i18n:
-      material_alternate: true
-      default_language: en
-      languages:
-        en:
-          name: English
-          build: true
-        ar:
-          name: العربية
-          build: true
+
+        
 # Extensions
 markdown_extensions:
   - abbr
@@ -103,6 +93,58 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+
+
+
+
+plugins:
+  - search
+  - i18n:
+      default_language: !ENV [DEFAULT_LANGUAGE, "en"]
+      default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]
+      docs_structure: suffix
+      material_alternate: true
+      default_language: en
+      languages:
+        en:
+          name: English
+          build: true
+        ar:
+          name: العربية
+          build: true
+          site_name: باينوتس
+      nav_translations:
+        ar:
+         Welcome : مرحبا
+         Getting started : إبدأ الآن 
+         What i need : ماذا أحتاج ؟
+         Installation : التثبيت
+         Introduction to python  : مقدمة إلى لغة بايثون
+         Python Basics : أساسيات لعة بايثون
+         Your First App : برنامجك الأول
+          
+        
+nav:
+  - Welcome : index.md
+  - Getting started: 
+    - Introduction to python : getting_started/what-is-python.en.md
+    - What i need : getting_started/what-i-need.en.md
+    - Installation : getting_started/installation/installation.en.md
+  - Python Basics :
+    - Your First App : python_basics/syntax-and-your-first-app.en.md
+     
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dzc0d3r
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/8990846/walid-lamraoui
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/walid-lamraoui/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dzc0d3r   
 
 copyright: |
   &copy; 2023 <a href="https://github.com/dzc0d3r"  target="_blank" rel="noopener">Walid Lamraoui</a>
