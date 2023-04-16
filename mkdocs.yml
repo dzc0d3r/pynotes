@@ -42,8 +42,8 @@ theme:
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
+      primary: indigo
+      accent: blue 
   
     
 
@@ -116,7 +116,7 @@ plugins:
           site_name: باينوتس
       nav_translations:
         ar:
-         Welcome : مرحبا
+         Welcome to the jungle :  مرحبا بك في الأدغال
          Getting started : إبدأ الآن 
          What i need : ماذا أحتاج ؟
          Installation : التثبيت
@@ -126,7 +126,7 @@ plugins:
           
         
 nav:
-  - Welcome : index.md
+  - Welcome to the jungle : index.md
   - Getting started: 
     - Introduction to python : getting_started/what-is-python.en.md
     - What i need : getting_started/what-i-need.en.md
@@ -135,7 +135,7 @@ nav:
     - Your First App : python_basics/syntax-and-your-first-app.en.md
      
 extra:
-  generator: true
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/dzc0d3r
