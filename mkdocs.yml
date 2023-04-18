@@ -117,22 +117,36 @@ plugins:
       nav_translations:
         ar:
          Welcome to the jungle :  مرحبا بك في الأدغال
+         Introduction : مقدّمة
+
+         # getting started
          Getting started : إبدأ الآن 
-         What i need : ماذا أحتاج ؟
-         Installation : التثبيت
+         Introduction to programming and programming languages : مقدّمة إلى البرمجة ولغات البرمجة
+         What i need ? : ماذا أحتاج ؟
          Introduction to python  : مقدمة إلى لغة بايثون
-         Python Basics : أساسيات لعة بايثون
+         Installation : التثبيت
+         
+         
+         #python basics
+         Python Basics : أساسيات لغة بايثون
          Your First App : برنامجك الأول
+
+         #python intermediate
+         Python Intermediate : المستوى المتوسّّط في البايثون
+
           
         
 nav:
   - Welcome to the jungle : index.md
   - Getting started: 
+    - Introduction to programming and programming languages : getting_started/introduction-to-programming.en.md
+    - What i need ? : getting_started/what-i-need.en.md
     - Introduction to python : getting_started/what-is-python.en.md
-    - What i need : getting_started/what-i-need.en.md
     - Installation : getting_started/installation/installation.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
+  - Python Intermediate:
+    - Introduction : python_intermediate/introduction.md
      
 extra:
   generator: false
