@@ -123,12 +123,12 @@ plugins:
          Getting started : إبدأ الآن 
          Introduction to programming and programming languages : مقدّمة إلى البرمجة ولغات البرمجة
          What i need ? : ماذا أحتاج ؟
-         Introduction to python  : مقدمة إلى لغة بايثون
-         Installation : التثبيت
+         Introduction to python  : مقدّمة إلى لغة بايثون
+         Installation and setup :  التّثبيت وتجهيز البيئة
          
          
          #python basics
-         Python Basics : أساسيات لغة بايثون
+         Python Basics : أساسيّات لغة بايثون
          Your First App : برنامجك الأول
 
          #python intermediate
@@ -140,9 +140,9 @@ nav:
   - Welcome to the jungle : index.md
   - Getting started: 
     - Introduction to programming and programming languages : getting_started/introduction-to-programming.en.md
-    - What i need ? : getting_started/what-i-need.en.md
     - Introduction to python : getting_started/what-is-python.en.md
-    - Installation : getting_started/installation/installation.en.md
+    - What i need ? : getting_started/what-i-need.en.md
+    - Installation and setup : getting_started/installation/installation.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
   - Python Intermediate:
