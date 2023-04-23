@@ -17,7 +17,7 @@ We will try to cover everything you need to become a successful pythoneer, start
 While the ambition is big, the topics are endless, however we will try to cover as much topics as we can, the main topics for a start are :
 
 ### Introduction to Python
-- Introduction to programming and programming lanaguages
+- [Introduction to programming and programming lanaguages](getting_started/introduction-to-programming.en.md)
 - What is Python ?
 - Zen of Python 
 - Application of Python
@@ -74,8 +74,13 @@ Here is things you can expect while learning Python with me together :
 And much more.
 
 So .. what are you waiting for ? let's do this
- 
 
 
 
 
+
+
+
+
+<!-- maybe use codeskultpor3 to add a way to include and run code samples and examples -->
+<!-- <iframe src="https://py3.codeskulptor.org/#user308_lSeLSUegvos998F.py" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> -->

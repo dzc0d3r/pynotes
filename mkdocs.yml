@@ -34,13 +34,13 @@ theme:
   palette:
     - scheme: slate 
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode    
       primary: indigo
       accent: blue
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/weather-night 
         name: Switch to dark mode
       primary: indigo
       accent: blue 
@@ -122,9 +122,10 @@ plugins:
          # getting started
          Getting started : إبدأ الآن 
          Introduction to programming and programming languages : مقدّمة إلى البرمجة ولغات البرمجة
-         What i need ? : ماذا أحتاج ؟
-         Introduction to python  : مقدّمة إلى لغة بايثون
+         What do i need ? : ماذا أحتاج ؟
+         What is Python ?  : ما هي لغة البايثون؟
          Installation and setup :  التّثبيت وتجهيز البيئة
+         The zen of Python : زن البايثون
          
          
          #python basics
@@ -140,9 +141,10 @@ nav:
   - Welcome to the jungle : index.md
   - Getting started: 
     - Introduction to programming and programming languages : getting_started/introduction-to-programming.en.md
-    - Introduction to python : getting_started/what-is-python.en.md
-    - What i need ? : getting_started/what-i-need.en.md
+    - What is Python ? : getting_started/what-is-python.en.md
+    - What do i need ? : getting_started/what-i-need.en.md
     - Installation and setup : getting_started/installation/installation.en.md
+    - The zen of Python : getting_started/zen-of-python.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
   - Python Intermediate:
