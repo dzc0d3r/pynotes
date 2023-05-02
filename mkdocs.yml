@@ -1,10 +1,10 @@
 
 site_name: pyNotes
-site_url: https://dzc0d3r.github.io/pyNotes/
+site_url: https://dzc0d3r.github.io/pynotes/
 
 # Repository
-repo_name: dzc0d3r/pyNotes
-repo_url: https://github.com/dzc0d3r/pyNotes
+repo_name: dzc0d3r/pynotes
+repo_url: https://github.com/dzc0d3r/pynotes
 theme:
   logo: assets/python.png
   favicon: assets/python.png
