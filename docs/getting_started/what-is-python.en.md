@@ -27,7 +27,7 @@ Using Python you can do almost anything, including the following :
 - Data analysis 
 - Web development
 - Desktop application development
-- Automation or scripting
+- Automation, scripting
 - Software testing and prototyping
 - Mobile application development (not mature yet)
 - Everyday tasks
@@ -42,6 +42,6 @@ Now that we know what Python is, let us take a look at some of its key features 
 - Large standard library, it offers a huge standard library to its users
 - Large community support with one of the biggest communities on StackOverflow and Meetup
 - Interpreted, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
-- Support fo procedural way, an object-oriented way or a functional way.
+- Support for procedural way, object-oriented way, and functional way.
 - Extensible and embeddable, 
 - Easy To Learn
