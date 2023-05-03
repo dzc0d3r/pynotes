@@ -18,8 +18,9 @@ While the ambition is big, the topics are endless, however we will try to cover 
 
 ### Introduction to Python
 - [Introduction to programming and programming lanaguages](getting_started/introduction-to-programming.en.md)
-- What is Python ?
-- Zen of Python 
+- [What is Python ?](getting_started/what-is-python.en.md)
+- [What do i need?](getting_started/what-i-need.en.md)
+- [Zen of Python](getting_started/zen-of-python.en.md)
 - Application of Python
 ### Python Basics
 - Installation and Setting up environment

@@ -24,7 +24,7 @@ In its human readable form it is called source code, the source code is usually 
 
 A programming language is a system of notation for writing computer programs, and like human languages it's defined through the use of syntactic and semantic rules, to determine structure and meaning respectively.
 
-Most programming languages are text-based formal languages, but they may also be graphical (visual programming language) like the famous Scratch.  
+Most programming languages are text-based formal languages, but they may also be graphical (visual programming language) like the famous [Scratch](https://scratch.mit.edu/){:target="_blank"}.  
 Thousands of different programming languages have been created, and new ones are created every year.
 
 
