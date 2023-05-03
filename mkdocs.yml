@@ -135,6 +135,14 @@ plugins:
          #python intermediate
          Python Intermediate : المستوى المتوسّّط في البايثون
 
+
+         #python advanced 
+         Python Advanced : المستوى المتقدّم في البايثون
+
+
+         #Python Tips 
+         Python Tips : نصائح في البايثون
+
           
         
 nav:
@@ -143,12 +151,15 @@ nav:
     - Introduction to programming and programming languages : getting_started/introduction-to-programming.en.md
     - What is Python ? : getting_started/what-is-python.en.md
     - What do i need ? : getting_started/what-i-need.en.md
-    - Installation and setup : getting_started/installation/installation.en.md
     - The zen of Python : getting_started/zen-of-python.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
   - Python Intermediate:
-    - Introduction : python_intermediate/introduction.md
+    - Introduction : python_intermediate/introduction.en.md
+  - Python Advanced:
+    - Introduction : python_advanced/introduction.en.md
+  - Python Tips:
+    - Introduction : python_tips/introduction.en.md
      
 extra:
   generator: false
