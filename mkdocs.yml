@@ -152,7 +152,6 @@ nav:
     - What is Python ? : getting_started/what-is-python.en.md
     - What do i need ? : getting_started/what-i-need.en.md
     - The zen of Python : getting_started/zen-of-python.en.md
-    - Installation and setup : getting_started/installation/installation.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
   - Python Intermediate:
