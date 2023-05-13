@@ -99,6 +99,9 @@ markdown_extensions:
 
 
 plugins:
+  - mkdocs-video:
+      video_muted: True
+      video_controls: True
   - search
   - i18n:
       default_language: !ENV [DEFAULT_LANGUAGE, "en"]
@@ -130,6 +133,9 @@ plugins:
          #python basics
          Python Basics : أساسيّات لغة بايثون
          Your First App : برنامجك الأول
+         Python Syntax : التركيب النحوي في لغة بايثون
+         Comments in Python : التعليقات في لغة بايثون
+
 
          #python intermediate
          Python Intermediate : المستوى المتوسّّط في البايثون
@@ -145,9 +151,7 @@ plugins:
 
 
 
-  - mkdocs-video:
-      video_muted: True
-      video_controls: True
+
 
 
           
@@ -161,6 +165,8 @@ nav:
     - The zen of Python : getting_started/zen-of-python.en.md
   - Python Basics :
     - Your First App : python_basics/syntax-and-your-first-app.en.md
+    - Python Syntax : python_basics/python-syntax.en.md
+    - Comments in Python : python_basics/comments-in-python.en.md
   - Python Intermediate:
     - Introduction : python_intermediate/introduction.en.md
   - Python Advanced:
