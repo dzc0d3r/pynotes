@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/getting_started/introduction-to-programming/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/getting_started/introduction-to-programming/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/getting_started/introduction-to-programming/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/getting_started/what-i-need/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/getting_started/what-i-need/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/getting_started/what-i-need/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/getting_started/what-is-python/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/getting_started/what-is-python/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/getting_started/what-is-python/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/getting_started/zen-of-python/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/getting_started/zen-of-python/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/getting_started/zen-of-python/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/getting_started/installation/installation/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/getting_started/installation/installation/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/getting_started/installation/installation/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_advanced/introduction/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_advanced/introduction/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_advanced/introduction/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_basics/comments-in-python/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_basics/comments-in-python/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_basics/comments-in-python/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_basics/python-syntax/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_basics/python-syntax/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_basics/python-syntax/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_basics/syntax-and-your-first-app/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_basics/syntax-and-your-first-app/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_basics/syntax-and-your-first-app/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_intermediate/introduction/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_intermediate/introduction/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_intermediate/introduction/"/>
+         
+    </url>
+    <url>
+         <loc>https://dzc0d3r.github.io/pynotes/python_tips/introduction/</loc>
+         <lastmod>2023-05-13</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://dzc0d3r.github.io/pynotes/en/python_tips/introduction/"/>
+         <xhtml:link rel="alternate" hreflang="ar" href="https://dzc0d3r.github.io/pynotes/ar/python_tips/introduction/"/>
+         
+    </url>
+</urlset>
