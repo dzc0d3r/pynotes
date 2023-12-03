@@ -6,6 +6,7 @@ site_url: https://dzc0d3r.github.io/pynotes/
 repo_name: dzc0d3r/pynotes
 repo_url: https://github.com/dzc0d3r/pynotes
 theme:
+  font: false
   logo: assets/python.png
   favicon: assets/python.png
   name: material
