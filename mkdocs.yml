@@ -6,25 +6,20 @@ site_url: https://dzc0d3r.github.io/pynotes/
 repo_name: dzc0d3r/pynotes
 repo_url: https://github.com/dzc0d3r/pynotes
 theme:
-  font:
-    text: Roboto
   logo: assets/python.png
   favicon: assets/python.png
   name: material
-
+  font: false
   features:
-    - toc.follow
-    #- navigation.instant
+    - toc.follow 
     - navigation.tracking
-   
+    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
-    #- navigation.sections
+    - navigation.sections
     - navigation.indexes 
-   
-
-
+    - navigation.prune
     #- toc.integrate
     - navigation.top
     - search.suggest
@@ -113,7 +108,6 @@ plugins:
       material_alternate: true
       default_language: en
       reconfigure_material: true
-
       languages:
           - locale: en
             name: English
@@ -171,6 +165,7 @@ plugins:
                 What is Python ?: ما هي لغة البايثون؟
                 Your First App: برنامجك الأول
 
+              
 
 
 
