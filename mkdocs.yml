@@ -69,8 +69,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -109,45 +109,58 @@ plugins:
       docs_structure: suffix
       material_alternate: true
       default_language: en
+      reconfigure_material: true
+
       languages:
-        en:
-          name: English
-          build: true
-        ar:
-          name: العربية
-          build: true
-          site_name: باينوتس
-      nav_translations:
-        ar:
-         Welcome to the jungle :  مرحبا بك في الأدغال
-         Introduction : مقدّمة
+          - locale: en
+            name: English
+            build: true
+            default: true
+          - locale: ar
+            name: العربية
+            build: true
+            site_name: باينوتس
+            nav_translations:
+              Welcome to the jungle :  مرحبا بك في الأدغال
+              Introduction : مقدّمة
 
-         # getting started
-         Getting started : إبدأ الآن 
-         Introduction to programming and programming languages : مقدّمة إلى البرمجة ولغات البرمجة
-         What do i need ? : ماذا أحتاج ؟
-         What is Python ?  : ما هي لغة البايثون؟
-         The zen of Python : زن البايثون
-         
-         
-         #python basics
-         Python Basics : أساسيّات لغة بايثون
-         Your First App : برنامجك الأول
-         Python Syntax : التركيب النحوي في لغة بايثون
-         Comments in Python : التعليقات في لغة بايثون
-
-
-         #python intermediate
-         Python Intermediate : المستوى المتوسّّط في البايثون
+              # getting started
+              Getting started : إبدأ الآن 
+              Introduction to programming and programming languages : مقدّمة إلى البرمجة ولغات البرمجة
+              What do i need ? : ماذا أحتاج ؟
+              What is Python ?  : ما هي لغة البايثون؟
+              The zen of Python : زن البايثون
+              
+              
+              #python basics
+              Python Basics : أساسيّات لغة بايثون
+              Your First App : برنامجك الأول
+              Python Syntax : التركيب النحوي في لغة بايثون
+              Comments in Python : التعليقات في لغة بايثون
 
 
-         #python advanced 
-         Python Advanced : المستوى المتقدّم في البايثون
+              #python intermediate
+              Python Intermediate : المستوى المتوسّّط في البايثون
 
 
-         #Python Tips 
-         Python Tips : نصائح في البايثون
+              #python advanced 
+              Python Advanced : المستوى المتقدّم في البايثون
 
+
+              #Python Tips 
+              Python Tips : نصائح في البايثون
+
+            nav:
+              - Welcome to the jungle : index.md
+              - Getting started: getting_started/introduction-to-programming.en.md
+                
+              - Python Basics : python_basics/syntax-and-your-first-app.en.md
+
+              - Python Intermediate: python_intermediate/introduction.en.md
+
+              - Python Advanced: python_advanced/introduction.en.md
+
+              - Python Tips: python_tips/introduction.en.md
 
 
 
@@ -156,23 +169,7 @@ plugins:
 
           
         
-nav:
-  - Welcome to the jungle : index.md
-  - Getting started: 
-    - Introduction to programming and programming languages : getting_started/introduction-to-programming.en.md
-    - What is Python ? : getting_started/what-is-python.en.md
-    - What do i need ? : getting_started/what-i-need.en.md
-    - The zen of Python : getting_started/zen-of-python.en.md
-  - Python Basics :
-    - Your First App : python_basics/syntax-and-your-first-app.en.md
-    - Python Syntax : python_basics/python-syntax.en.md
-    - Comments in Python : python_basics/comments-in-python.en.md
-  - Python Intermediate:
-    - Introduction : python_intermediate/introduction.en.md
-  - Python Advanced:
-    - Introduction : python_advanced/introduction.en.md
-  - Python Tips:
-    - Introduction : python_tips/introduction.en.md
+
      
 extra:
   generator: false
